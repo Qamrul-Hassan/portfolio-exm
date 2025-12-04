@@ -1006,5 +1006,9 @@ body {
     .about-content h2{
         font-size: 24px;
     }
- 
+ .about-content p{
+    text-align: center;
+    margin-left: 100px;
+    
+ }
 }
