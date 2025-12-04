@@ -978,7 +978,7 @@ body {
 
 @media (max-width: 480px) {
     .footer-box {
-        padding: 40px 15px;
+        padding: 40px 6px;
     }
 
     .footer-logo-img {
@@ -998,6 +998,7 @@ body {
 
     .footer-social a {
         font-size: 16px;
+        
     }
 
     .container h2{
