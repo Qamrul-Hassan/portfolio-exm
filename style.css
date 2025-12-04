@@ -872,7 +872,7 @@ body {
 @media (max-width: 992px) {
     .hero-row, .graphics-row, .experience-wrapper, .portfolio-header {
         flex-direction: column;
-        gap: 30px;
+        gap: 20px;
     }
 
     .nav {
@@ -884,7 +884,7 @@ body {
     .nav-menu {
         flex-direction: column;
         width: 100%;
-        gap: 15px;
+        gap: 5px;
     }
 
     .nav-menu li a {
@@ -910,17 +910,29 @@ body {
     .hero-big-title, .graphics-big-title {
         font-size: 36px;
     }
-
+    .container{
+        max-width: 400px;
+    }
+.hero-row{
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
     .hero-desc, .graphics-desc, .portfolio-right, .about-content p {
-        font-size: 15px;
-        max-width: 100%;
+        font-size: 10px;
+        max-width: 50%;
+        text-align: center;
     }
 
     .hero-btn, .graphics-btn, .about-content .bttn {
         font-size: 14px;
         padding: 10px 22px;
+        flex-direction: row-reverse;
     }
-
+.graphics-image{
+    margin-top: 50px;
+}
     .skills-wrapper {
         flex-direction: column;
         gap: 20px;
@@ -929,7 +941,9 @@ body {
     .skill-card {
         width: 100%;
     }
-
+.portfolio-left h1{
+    font-size: 25px;
+}
     .testimonial-cards {
         margin-top: -40px;
         flex-direction: column;
@@ -985,4 +999,12 @@ body {
     .footer-social a {
         font-size: 16px;
     }
+
+    .container h2{
+        font-size: 24px;
+    }
+    .about-content h2{
+        font-size: 24px;
+    }
+ 
 }
