@@ -910,9 +910,7 @@ body {
     .hero-big-title, .graphics-big-title {
         font-size: 36px;
     }
-    .container{
-        max-width: 400px;
-    }
+   
 .hero-row{
     flex-direction: column-reverse;
     justify-content: center;
@@ -1016,7 +1014,7 @@ body {
     }
  .about-content p{
     text-align: center;
-    margin-left: 100px;
+    
     
  }
 }
